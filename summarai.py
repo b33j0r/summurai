@@ -12,7 +12,7 @@ from abc import ABC, abstractmethod
 from typing import Optional, Dict, Any, List
 import requests
 
-DEFAULT_MODEL = "llama3.1"
+DEFAULT_MODEL = "gemma:7b"
 
 # ----------------------------
 # Logging Configuration

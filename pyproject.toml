@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "summarai"
+version = "0.1.0"
+description = "AI-enabled directory summarizer and query tool (made with GPT)."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Brian Jorgensen", email = "brian.jorgensen@gmail.com" }
+]
+dependencies = [
+    "tqdm",
+    "requests",
+    "argparse",
+    "typing-extensions"
+]
+requires-python = ">=3.8"
+
+[project.urls]
+homepage = "https://example.com/summarai"
+repository = "https://github.com/b33j0r/summarai"
+
+[project.scripts]
+summarai = "summarai:main"
